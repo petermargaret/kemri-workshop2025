@@ -26,7 +26,7 @@ Create a folder named “Workshop” (e.g., on Desktop) and move the 4ey7.pdb fi
 - Go to File > Read Molecule > Select 4ey7.pdb.
 - Expand the file tree and delete chains B, C, and D (Edit > Delete > Delete Selected Atoms).
 - Remove water molecules (Edit > Delete Water).
-- Delete heteroatoms like EDO605 (Edit > Delete > Delete Selected Atoms).
+- Delete heteroatoms like EDO605/606 (Edit > Delete > Delete Selected Atoms).
 - Save the cleaned complex (File > Save > Write PDB) as "Clean_AChE_E20.pdb".
 - Restart AutoDockTools for stability, then reopen the saved file.
 
