@@ -38,24 +38,21 @@ Create a folder named “Workshop” (e.g., on Desktop) and move the 4ey7.pdb fi
 - Check for non-integral charges: Edit > Charges > Check Totals on Residues.
 - If residues have non-integral charges, click “Spread Charge Deficit over all atoms in residue.”
 
-## Step 3: Prepare the Ligand
-- Extract and Save Ligand:
+## Step 3: Prepare the Ligand-Extract and Save Ligand:
 - Open “Clean_AChE_E20.pdb” in a text editor.
 - Copy all lines under HETATM corresponding to the inhibitor (e.g., atoms 8423–8450).
 - Paste into a new file and save as “Ligand.pdb” in the Workshop folder.
 
 ## Process Ligand in AutoDockTools:
-
 - Ligand > Input > Open > Select Ligand.pdb.
 - AutoDockTools will assign charges automatically.
 - Set rotatable bonds: Ligand > Torsion Tree > Choose Torsions > Done (for 6 rotatable bonds).
 - Save the ligand as "Ligand.pdbqt": Ligand > Output > Save as PDBQT.
 
 ## Step 4: Define the Docking Grid
-Select Macromolecule:
-
+#### Select Macromolecule:
 - Grid > Macromolecule > Choose > Select "Clean_AChE_E20" > Save as "Processed_AChE.pdbqt"
-  Select Ligand:
+#### Select Ligand:
 - Grid > Set Map Types > Choose Ligand > Select "Ligand"
 
 ## Define Grid Box:
