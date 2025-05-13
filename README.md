@@ -93,13 +93,11 @@ _Optionally adjust grid dimensions._
 ## Convert to PDB Format:
 - Open Babel GUI > Input format: pdbqt > Output format: pdb > Convert “Complex.pdbqt” to “Complex.pdb”
 - or open using using ChimeraX and save .pdb file
-
 - Repeat for all 10 conformations if needed
 - Identify the best binding pose using lowest binding energy from dock.dlg
 
 ## Optional Visualization Tools:
 - Maestro: https://www.schrodinger.com/freemaestro/
-- UCSF Chimera: https://www.cgl.ucsf.edu/chimera/download.html
-  
+- UCSF Chimera: https://www.cgl.ucsf.edu/chimera/download.html 
 _There is no trophy in doing things the hard way_
 _You have successfully accomplished your first CADD experiment!_
