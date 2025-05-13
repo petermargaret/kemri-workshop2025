@@ -4,7 +4,7 @@ By Peter Margaret, Msc Bioinformatics The University of Nairobi peter.margaret@s
 ## Introduction:
 - In this tutorial, we'll walk through a complete molecular docking experiment from scratch. We begin by installing the       necessary software. Mac users may face some installation challenges, but we’ll tackle them together.
 - Download based on your OS type - Linux, Windows or Mac
-- For the Mac users, download XQuartz from https://www.xquartz.org/, this is required for display of the MGL tools.
+- For Mac users, download XQuartz from https://www.xquartz.org/, this is required for display of the MGL tools.
 - if MGL Tools fail to display, navigate to the ~/bin and run: export DISPLAY=:0 and excute ./adt command again! Good luck buddy!!
 - Okay, et’s get started on   this computational adventure!
 ## Step 1: Install Required Tools
