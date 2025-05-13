@@ -3,7 +3,7 @@ By Peter Margaret, Msc Bioinformatics The University of Nairobi peter.margaret@s
 
 
 ## Introduction:
-- In this tutorial, we'll walk through a complete molecular docking experiment from scratch. We begin by installing the necessary software. Mac users may face some installation challenges, but we’ll tackle them together. Let’s get started on this computational adventure!
+- In this tutorial, we'll walk through a complete molecular docking experiment from scratch. We begin by installing the       necessary software. Mac users may face some installation challenges, but we’ll tackle them together. Let’s get started on   this computational adventure!
 ## Step 1: Install Required Tools
 - Download and install the following software:
 - AutoDock: https://autodock.scripps.edu/download-autodock4/
@@ -18,7 +18,7 @@ By Peter Margaret, Msc Bioinformatics The University of Nairobi peter.margaret@s
 
 ## Step 2: Prepare the Protein Structure
 Download PDB File:
-Go to the RCSB Protein Data Bank and download the structure with PDB ID 4EY7, which is the Acetylcholinesterase enzyme bound with Donepezil.
+- Go to the RCSB Protein Data Bank and download the structure with PDB ID 4EY7, which is the Acetylcholinesterase enzyme      bound with Donepezil.
 ## Set Up Working Directory:
 Create a folder named “Workshop” (e.g., on Desktop) and move the 4ey7.pdb file into this folder. Set this folder as the startup directory in AutoDockTools:
 - Launch AutoDockTools > File > Preferences > Set > Paste path of the Workshop folder > Click Set.
@@ -61,15 +61,10 @@ Select Macromolecule:
 ## Define Grid Box:
 
 - Open Ligand.pdb in a text editor.
-
 - Calculate centroid of ligand by averaging x, y, and z coordinates.
-
 - Grid > Grid Box > Enter centroid values.
-
 _Optionally adjust grid dimensions._
-
 - File > Close saving current (in Grid Options dialog).
-
 - Grid > Output > Save as “grid.gpf”
 
 ## Step 5: Run AutoGrid to Create Grid Maps
@@ -96,9 +91,8 @@ _Optionally adjust grid dimensions._
 - Export final complex: Click “Write Complex” > Save as “Complex.pdbqt”
 
 ## Convert to PDB Format:
-
-Open Babel GUI > Input format: pdbqt > Output format: pdb > Convert “Complex.pdbqt” to “Complex.pdb”
-or open using using ChimeraX and save .pdb file
+- Open Babel GUI > Input format: pdbqt > Output format: pdb > Convert “Complex.pdbqt” to “Complex.pdb”
+- or open using using ChimeraX and save .pdb file
 
 - Repeat for all 10 conformations if needed
 - Identify the best binding pose using lowest binding energy from dock.dlg
