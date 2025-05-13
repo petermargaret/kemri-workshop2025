@@ -107,5 +107,5 @@ or open using using ChimeraX and save .pdb file
 - Maestro: https://www.schrodinger.com/freemaestro/
 - UCSF Chimera: https://www.cgl.ucsf.edu/chimera/download.html
   
-_here is no trophy in doing things the hard way_
+_There is no trophy in doing things the hard way_
 _You have successfully accomplished your first CADD experiment!_
