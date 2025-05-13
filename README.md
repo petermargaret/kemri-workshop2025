@@ -1,7 +1,6 @@
 Molecular Docking Workshop
 By Peter Margaret, Msc Bioinformatics The University of Nairobi peter.margaret@students.uonbi.ac.ke
 
-
 ## Introduction:
 - In this tutorial, we'll walk through a complete molecular docking experiment from scratch. We begin by installing the       necessary software. Mac users may face some installation challenges, but we’ll tackle them together.
 - Download based on your OS type - Linux, Windows or Mac
